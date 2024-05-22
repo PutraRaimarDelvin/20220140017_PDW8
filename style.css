@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fe00b6;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  h1, h2 {
+    color: #000000;
+    font-weight: bold; /* Add this line to make the headings bold */
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold; /* Add this line to make the footer text bold */
+  }
+  
+  /* Additional CSS for making other text bold */
+  p, .form-check-label, .nav-link {
+    font-weight: bold; /* Add this line to make paragraph, label, and nav link text bold */
+  }
+  
