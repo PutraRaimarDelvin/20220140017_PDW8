@@ -1,6 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fe00b6;
+    background-image: url('back3.avif');
+    background-size: cover; /* Ensures the background image covers the entire page */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-position: center center; /* Centers the background image */
+    background-attachment: fixed; /* Keeps the background image fixed on scroll */
   }
   
   .navbar-brand {
@@ -9,7 +13,7 @@ body {
   
   h1, h2 {
     color: #000000;
-    font-weight: bold; /* Add this line to make the headings bold */
+    font-weight: bold;
   }
   
   .footer {
@@ -18,11 +22,10 @@ body {
     bottom: 0;
     width: 100%;
     text-align: center;
-    font-weight: bold; /* Add this line to make the footer text bold */
+    font-weight: bold;
   }
   
-  /* Additional CSS for making other text bold */
   p, .form-check-label, .nav-link {
-    font-weight: bold; /* Add this line to make paragraph, label, and nav link text bold */
+    font-weight: bold;
   }
   

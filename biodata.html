@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hobbies</title>
+  <title>Biodata</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -18,34 +18,48 @@
         <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="biodata.html">Biodata</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="aboutme.html">About Me</a>
+          <a class="nav-link" href="about_me.html">About Me</a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="hobbies.html">Hobbies</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="friend from.html">Friend Form</a>
+          <a class="nav-link" href="friend_form.html">Friend Form</a>
         </li>
       </ul>
     </div>
   </nav>
 
   <div class="container mt-5">
-    <h1 class="text-center">Hobbies</h1>
+    <h1 class="text-center">Biodata</h1>
     <div class="row">
       <div class="col-md-8 offset-md-2">
-        <p>Saya memiliki beberapa hobi yang sangat saya minati. Beberapa di antaranya adalah:</p>
-        <ul>
-          <li>Sepak Bola, adminton dan Bermain Musik.</li>
-          <li>Menikmati Kuliner Setiap Daerah.</li>
-          <li>Liburan seperti kepantai dll.</li>
-        </ul>
+        <form>
+          <div class="form-group">
+            <label for="name">Nama:</label>
+            <input type="text" class="form-control" id="name" value="Putra Raimar Delvin" disabled>
+          </div>
+          <div class="form-group">
+            <label for="origin">Asal:</label>
+            <input type="text" class="form-control" id="origin" value="Pekanbaru, Riau" disabled>
+          </div>
+          <div class="form-group">
+            <label for="age">Umur:</label>
+            <input type="number" class="form-control" id="age" value="20" disabled>
+          </div>
+          <div class="form-group">
+            <label for="education">Pendidikan:</label>
+            <input type="text" class="form-control" id="education" value="Mahasiswa Universitas Muhammadiyah Yogyakarta, Prodi Teknologi Informasi" disabled>
+          </div>
+        </form>
       </div>
+    </div>
   </div>
+
   <footer class="footer mt-5 py-3 bg-dark text-white text-center">
     <p>&copy; 2024 My Personal Website. All Rights Reserved.</p>
   </footer>
